@@ -4,7 +4,7 @@ title: "What #4471 actually shows"
 owner: Robert De La Cruz
 status: filed
 reviewed: 2026-10-31
-signature: Robert De La Cruz
+signature: "v1.eyJzdWIiOiIyMjExIiwiYXVkIjoiY2hhbGxlbmdlOndoYXQtaXQtc2hvd3MiLCJpYXQiOjE3OTM0NzQ0MTUsImV4cCI6MTc5MzU2MDgxNX0.4YoFvVPiZwmrQutwqPWROuR32Luz1mVFGYYrxQv5OWk"
 ---
 
 <script>
