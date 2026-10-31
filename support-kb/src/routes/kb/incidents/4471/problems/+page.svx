@@ -1,0 +1,28 @@
+---
+layout: runbook
+title: "What #4471 actually shows"
+owner: Robert De La Cruz
+status: filed
+reviewed: 2026-10-31
+signature: Robert De La Cruz
+---
+
+<script>
+  import Callout from '#lib/kb/Callout.svelte';
+  import ProblemSplit from '#lib/kb/ProblemSplit.svelte';
+  import RenderStamp from '#lib/kb/RenderStamp.svelte';
+</script>
+
+[#4471](/kb/incidents/4471) merged every date report into one known issue. The cause rule and the desk notes do not describe one bug.
+
+<Callout kind="warn">
+The incident page still says one issue, and its parser count still includes the one-day reads. The split below gives each report one problem.
+</Callout>
+
+## The split
+
+<ProblemSplit ticket={4471} />
+
+A report is parser when the tenant writes the day first and the report did not come through booking-v3's form. It is hint when it did: that form tells people to type the month first, and the form reads the day first. A report the desk notes list as a one-day move stays in its own row, even when the cause rule would file it under the tenant.
+
+<RenderStamp {signature} />

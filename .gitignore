@@ -1,0 +1,8 @@
+lesson.md
+*.zip
+.DS_Store
+node_modules
+.svelte-kit
+support-kb/build
+support-kb/node_modules
+support-kb/.svelte-kit
